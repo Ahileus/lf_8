@@ -21,4 +21,11 @@ $ npm run start:dev
 $ npm run test
 
 # docker
-  docker run --name mysql-housekeeping -e MYSQL_USER=admin -e MYSQL_PASSWORD=test -e MYSQL_DATABASE=housekeeping -e MYSQL_RANDOM_ROOT_PASSWORD=yes -p 3306:3306 -d mysql
+  docker run 
+  --name mysql-housekeeping 
+  -e MYSQL_USER=admin 
+  -e MYSQL_PASSWORD=test 
+  -e MYSQL_DATABASE=housekeeping 
+  -e MYSQL_RANDOM_ROOT_PASSWORD=yes 
+  -p 3306:3306 
+  -d mysql
